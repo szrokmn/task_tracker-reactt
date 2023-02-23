@@ -1,6 +1,9 @@
 import React from 'react'
 
-const TaskList = () => {
+const TaskList = ({ task, getTask }) => {
+
+
+  
   return (
     <div>TaskList</div>
   )
