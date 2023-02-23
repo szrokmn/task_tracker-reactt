@@ -3,9 +3,9 @@ import TaskPng from "../../assets/TaskPng.jsx";
 
 const Header = () => {
   return (
-    <div>
+    <div className='d-flex justify-content-evenly align-items-center bg-danger'>
         <TaskPng/>
-        <h1>TASK TRACKER</h1>
+        <h1 className='display-5'>TASK TRACKER</h1>
     </div>
   )
 }
