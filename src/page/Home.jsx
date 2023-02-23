@@ -5,7 +5,7 @@ import TaskList from "../components/taskList/TaskList";
 const Home = () => {
   return (
     <div>
-      <Button variant="danger">abc</Button>
+      <Button variant="primary">abc</Button>
       <AddTask />
       <TaskList />
     </div>
